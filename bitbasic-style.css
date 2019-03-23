@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 700px) 1fr;
+}
+
+.letter-grid-container {
+    
+}
+
+.letter-grid {
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 180px;
+    height: 270px;
+    padding: 10px;
+}
+
+.block-container {
+    display: inline;
+}
+
+.white-block {
+    background-color: white;
+}
+
+.black-block {
+    background-color: black;
+}
