@@ -2,12 +2,12 @@ body {
     background-color: black;
 }
 
-.grid-container {
+#grid-container {
     display: grid;
     grid-template-columns: 1fr minmax(300px, 850px) 1fr;
 }
 
-.letter-grid-container {
+#letter-grid-container {
     text-align: center;
 }
 
