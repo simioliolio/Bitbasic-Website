@@ -20,10 +20,6 @@ body {
     padding: 10px;
 }
 
-.block-container {
-    display: inline;
-}
-
 .white-block {
     background-color: white;
 }
