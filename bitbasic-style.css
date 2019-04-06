@@ -7,21 +7,31 @@ body {
     grid-template-columns: 1fr 20fr 1fr;
 }
 
-#letter-grid-container {
+#letters {
     text-align: center;
 }
 
+.letter {
+    display: inline-block;
+    padding: 8px;
+}
+
+.letter-background {
+    background-image: url("covers/grating_rainbows.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .letter-grid {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 160px;
     height: 240px;
-    padding: 8px;
 }
 
 .white-block {
-    background-color: white;
+    /* clear */
 }
 
 .black-block {
