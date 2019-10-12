@@ -20,6 +20,7 @@ body {
     background-image: url("covers/grating_rainbows.jpg");
     background-size: cover;
     background-position: center;
+    animation: filter-animation 9s infinite;
 }
 
 .letter-grid {
@@ -37,3 +38,17 @@ body {
 .black-block {
     background-color: black;
 }
+
+@keyframes filter-animation {
+    0% {
+      -webkit-filter: sepia(0) saturate(0);
+    }
+    
+    50% {
+      -webkit-filter: sepia(1) saturate(8);
+    }
+    
+    100% {
+      -webkit-filter: sepia(0) saturate(0);
+    }
+  }
