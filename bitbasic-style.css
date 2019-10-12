@@ -31,8 +31,8 @@ body {
     height: 240px;
 }
 
-.white-block {
-    /* clear */
+.clear-block {
+    background-color: transparent;
 }
 
 .black-block {
