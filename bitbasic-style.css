@@ -19,6 +19,7 @@ body {
 .letter-background {
     background-image: url("covers/grating_rainbows.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     animation: filter-animation 9s infinite;
 }
